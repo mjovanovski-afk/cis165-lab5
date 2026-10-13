@@ -86,3 +86,21 @@ Inputs: 20000, 6%, 60
 Expected results: Monthly: $386.66, Paid: $23199.36, Interest: $3199.36
 Actual results: Monthly: $386.66, Paid: $23199.36, Interest: $3199.36
 Match or correction: Match
+
+CODE EXPLANATION QUESTIONS
+1. Why must a percentage be divided by 100 before using it in a formula?
+A percentage represents a fraction out of 100 (for example, 5% means 5 out of 100). Math formulas require whole values expressed as decimals (0.05), so dividing by 100 scales the user's input to the correct numeric value.
+2. How does pow represent exponentiation?
+The pow(base, exponent) function raises the base expression to the given power. In pow(1.0 + rate, times), (1.0 + rate) is the base and times is the power.
+3. What does the number of compounding periods change in the savings formula?
+The number of compounding periods changes the number of times the earned interest added into the principal balance. More compounding periods mean interest is earned on top of interest more often, which results in a higher balance.
+4. How is an annual interest rate converted to a monthly rate?
+The annual percentage rate is first divided by 100 to get a decimal, and then divided by 12 (the number of months in a year) to get the monthly decimal rate.
+5. Why should double be used for these calculations?
+The double data type stores floating-point numbers with up to 15-17 digits of decimal precision, which prevents precision loss during multi-step math calculations.
+6. Why should calculations use full precision when money is displayed to two decimal places?
+If you round numbers early during math steps, tiny rounding errors add up and make your final answer wrong. Keeping full decimals until the end ensures your final dollar total stays accurate.
+7. How are the amount paid back and total interest calculated?
+The amount paid back is calculated by multiplying the monthly payment by the total number of payments. Total interest paid is calculated by subtracting the original loan principal from the total amount paid back.
+8. Why are calculations stored in variables before being displayed?
+Storing results in variables keeps code clean, readable, easy to debug, and satisfies course style rules by keeping complex math formulas out of cout statements.
