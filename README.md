@@ -104,3 +104,15 @@ If you round numbers early during math steps, tiny rounding errors add up and ma
 The amount paid back is calculated by multiplying the monthly payment by the total number of payments. Total interest paid is calculated by subtracting the original loan principal from the total amount paid back.
 8. Why are calculations stored in variables before being displayed?
 Storing results in variables keeps code clean, readable, easy to debug, and satisfies course style rules by keeping complex math formulas out of cout statements.
+
+COURSE STYLE RULES FOLLOWED
+
+Meaningful lowercase variable names (e.g., loan_amount, interest_earned).
+
+ALL_CAPS for named constants (e.g., PERCENT_CONVERSION, MONTHS_IN_YEAR).
+
+Every calculation stored in a result variable before cout.
+
+Four-space indentation inside main().
+
+No unused variables or cluttered code.
