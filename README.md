@@ -52,15 +52,6 @@ Paste code into the editor window.
 
 Click the green Run button.
 
-Terminal Commands:
-Compound Interest:
-Compile: g++ -std=c++17 -Wall -Wextra compound_interest.cpp -o compound_interest
-Run: ./compound_interest
-
-Loan Payment:
-Compile: g++ -std=c++17 -Wall -Wextra loan_payment.cpp -o loan_payment
-Run: ./loan_payment
-
 TEST RECORD TABLE
 
 Program and test: Compound interest — assigned
