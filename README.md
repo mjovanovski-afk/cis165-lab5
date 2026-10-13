@@ -41,3 +41,22 @@ interest_paid = amount_paid_back - loan_amount
 Outputs: Loan amount, monthly rate %, number of payments, monthly payment, amount paid back, interest paid.
 
 Tests to perform: Assigned case ($10000, 12%, 36) and Custom case ($20000, 6%, 60).
+
+HOW TO RUN AND COMPILE
+
+OnlineGDB Steps:
+
+Go to onlinegdb.com and select C++17 from the top right menu.
+
+Paste code into the editor window.
+
+Click the green Run button.
+
+Terminal Commands:
+Compound Interest:
+Compile: g++ -std=c++17 -Wall -Wextra compound_interest.cpp -o compound_interest
+Run: ./compound_interest
+
+Loan Payment:
+Compile: g++ -std=c++17 -Wall -Wextra loan_payment.cpp -o loan_payment
+Run: ./loan_payment
