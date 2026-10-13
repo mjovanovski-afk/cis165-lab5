@@ -1,7 +1,7 @@
 CIS 165 - Lab 5: Compound Interest and Loan Payments
 
 OVERVIEW
-This project contains two C++ programs that perform financial calculations using double variables, named constants, mathematical functions from , and formatted output using .
+This project contains two C++ programs that perform financial calculations using double variables, named constants, mathematical functions from cmath, and formatted output using iomanip.
 
 compound_interest.cpp: Calculates total savings and interest earned based on principal, annual rate, and compounding frequency.
 
